@@ -1,0 +1,31 @@
+a.wav: RIFF (little-endian) data, WAVE audio, mono 48000 Hz
+
+Version : libsndfile-1.0.25
+
+========================================
+File : a.wav
+Length : 192058
+RIFF : 192050
+WAVE
+fmt  : 18
+  Format        : 0x3 => WAVE_FORMAT_IEEE_FLOAT
+  Channels      : 1
+  Sample Rate   : 48000
+  Block Align   : 4
+  Bit Width     : 32
+  Bytes/sec     : 192000
+fact : 4
+  frames  : 48000
+data : 192000
+End
+
+----------------------------------------
+Sample Rate : 48000
+Frames      : 48000
+Channels    : 1
+Format      : 0x00010006
+Sections    : 1
+Seekable    : TRUE
+Duration    : 00:00:01.000
+Signal Max  : 1 (-0.00 dB)
+

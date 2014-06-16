@@ -1,0 +1,39 @@
+a.wav: RIFF (little-endian) data, WAVE audio, stereo 44100 Hz
+
+Version : libsndfile-1.0.25
+
+========================================
+File : a.wav
+Length : 264680
+RIFF : 264672
+WAVE
+fmt  : 40
+  Format        : 0xFFFE => WAVE_FORMAT_EXTENSIBLE
+  Channels      : 2
+  Sample Rate   : 44100
+  Block Align   : 6
+  Bit Width     : 24
+  Bytes/sec     : 264600
+  Valid Bits    : 24
+  Channel Mask  : 0x3 (L, R)
+  Subformat
+    esf_field1 : 0x1
+    esf_field2 : 0x0
+    esf_field3 : 0x10
+    esf_field4 : 0x80 0x0 0x0 0xAA 0x0 0x38 0x9B 0x71 
+    format : pcm
+fact : 4
+  frames  : 44100
+data : 264600
+End
+
+----------------------------------------
+Sample Rate : 44100
+Frames      : 44100
+Channels    : 2
+Format      : 0x00130003
+Sections    : 1
+Seekable    : TRUE
+Duration    : 00:00:01.000
+Signal Max  : 8.3886e+06 (-0.00 dB)
+

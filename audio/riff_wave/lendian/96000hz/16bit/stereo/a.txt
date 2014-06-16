@@ -1,0 +1,29 @@
+a.wav: RIFF (little-endian) data, WAVE audio, Microsoft PCM, 16 bit, stereo 96000 Hz
+
+Version : libsndfile-1.0.25
+
+========================================
+File : a.wav
+Length : 384044
+RIFF : 384036
+WAVE
+fmt  : 16
+  Format        : 0x1 => WAVE_FORMAT_PCM
+  Channels      : 2
+  Sample Rate   : 96000
+  Block Align   : 4
+  Bit Width     : 16
+  Bytes/sec     : 384000
+data : 384000
+End
+
+----------------------------------------
+Sample Rate : 96000
+Frames      : 96000
+Channels    : 2
+Format      : 0x00010002
+Sections    : 1
+Seekable    : TRUE
+Duration    : 00:00:01.000
+Signal Max  : 32767 (-0.00 dB)
+
