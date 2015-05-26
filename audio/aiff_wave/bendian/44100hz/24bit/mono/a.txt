@@ -1,0 +1,29 @@
+
+Version : libsndfile-1.0.25
+
+========================================
+File : a.aif
+Length : 4952
+FORM : 4944
+ AIFF
+ (c)  : Copyright 1991, Prosonus
+ COMM : 18
+  Sample Rate : 44100
+  Frames      : 1622
+  Channels    : 1
+  Sample Size : 24
+  Encoding    : NONE
+ SSND : 4874
+  Offset     : 0
+  Block Size : 0
+
+----------------------------------------
+Sample Rate : 44100
+Frames      : 1622
+Channels    : 1
+Format      : 0x00020003
+Sections    : 1
+Seekable    : TRUE
+Duration    : 00:00:00.037
+Signal Max  : 8.3881e+06 (-0.00 dB)
+

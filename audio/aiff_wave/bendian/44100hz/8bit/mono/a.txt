@@ -1,0 +1,28 @@
+
+Version : libsndfile-1.0.25
+
+========================================
+File : a.aif
+Length : 847
+FORM : 839
+ AIFF
+ COMM : 18
+  Sample Rate : 44100
+  Frames      : 793
+  Channels    : 1
+  Sample Size : 8
+  Encoding    : NONE
+ SSND : 801
+  Offset     : 0
+  Block Size : 0
+
+----------------------------------------
+Sample Rate : 44100
+Frames      : 793
+Channels    : 1
+Format      : 0x00020001
+Sections    : 1
+Seekable    : TRUE
+Duration    : 00:00:00.018
+Signal Max  : 127 (-0.07 dB)
+

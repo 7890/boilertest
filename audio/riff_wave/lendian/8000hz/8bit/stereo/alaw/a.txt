@@ -1,0 +1,31 @@
+
+Version : libsndfile-1.0.25
+
+========================================
+File : a.wav
+Length : 16058
+RIFF : 16050
+WAVE
+fmt  : 18
+  Format        : 0x6 => WAVE_FORMAT_ALAW
+  Channels      : 2
+  Sample Rate   : 8000
+  Block Align   : 2
+  Bit Width     : 8
+  Bytes/sec     : 16000
+  Extra Bytes   : 0
+fact : 4
+  frames  : 8000
+data : 16000
+End
+
+----------------------------------------
+Sample Rate : 8000
+Frames      : 8000
+Channels    : 2
+Format      : 0x00010011
+Sections    : 1
+Seekable    : TRUE
+Duration    : 00:00:01.000
+Signal Max  : 26112 (-1.97 dB)
+
