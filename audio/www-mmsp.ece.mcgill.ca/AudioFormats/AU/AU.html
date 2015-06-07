@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+
+<head>
+
+<title>AU Sound File Specifications</title>
+
+<link rel="stylesheet" type="text/css" href="../../MMSP.css"/>
+<style type="text/css">
+table {
+		border-top: 2px solid #336699;
+		border-bottom: 1px solid #336699;
+		border-collapse: collapse;
+}
+th {
+		font-weight: bold;
+		border-bottom: 2px solid #336699;
+		padding: 5px;
+}
+td {
+		border: 0px;
+		padding: 5px;
+}
+code {
+		font-family: courier, monospace;
+		color: #008000;
+}
+var {
+		font-family: courier, monospace;
+		font-style: normal;
+		color: #0000FF;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Audio File Format Specifications</h1>
+
+<p><b>File Description</b>: AU or NeXT/Sun sound file<br/>
+<b>File Extension</b>: Commonly <var>.au</var>, sometimes <var>.snd</var><br/>
+<b>File Byte Order</b>: Big-endian</p>
+
+<p><a href="http://www.mcgill.ca/directory/staff/?LastName=kabal&amp;FirstName=peter">
+Prof. Peter Kabal</a>, MMSP Lab, ECE, McGill University: Last update:
+<!--webbot bot="Timestamp" S-Type="EDITED" S-Format="%Y-%m-%d" startspan -->2015-03-04<!--webbot bot="Timestamp" endspan i-checksum="12198" --></p>
+
+<h2>AU File Specifications</h2>
+
+<p>The AU file specifications came from NeXT Computer and Sun. The AU file 
+format uses as simple extensible header, followed by data. The minimum header 
+length is 28 bytes.</p>
+<table width="400px">
+  <colgroup>
+    <col width="8%"/>
+    <col width="11%"/>
+    <col width="20%"/>
+  </colgroup>
+  <tr>
+    <th>Offset</th>
+    <th>Length</th>
+    <th>Type</th>
+    <th>Contents</th>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>4</td>
+    <td>character</td>
+    <td>File magic <q><code>.snd</code></q></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>4</td>
+    <td>unsigned integer</td>
+    <td>Offset to start of data</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>4</td>
+    <td>unsigned integer</td>
+    <td>Number of bytes of data</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>4</td>
+    <td>unsigned integer</td>
+    <td>Data format code</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>4</td>
+    <td>unsigned integer</td>
+    <td>Sampling rate</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>4</td>
+    <td>unsigned integer</td>
+    <td>Number of channels</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>-</td>
+    <td>character</td>
+    <td>Optional text information (minimum 4 bytes)</td>
+  </tr>
+</table>
+
+<p></p>
+<h3>Data Types</h3>
+
+<p>The data in AU files can be of several different types. The data is stored in 
+little-endian byte order. Common format codes are listed in the following table. 
+See <a href="http://sox.sourceforge.net/AudioFormats.html">Audio File Format FAQ</a> 
+for additional codes.</p>
+<table width="380px">
+  <colgroup>
+  	<col width="8%"/>
+  	<col width="40%"/>
+  </colgroup>
+  <tr>
+    <th>Format Code</th>
+    <th>PreProcessor Symbol</th>
+    <th>Data Type</th>
+  </tr>
+  <tr>
+    <td><code>1</code></td>
+    <td><code>SND_FORMAT_MULAW_8</code></td>
+    <td>8-bit ITU-T G.711 µ-law</td>
+  </tr>
+  <tr>
+    <td><code>2</code></td>
+    <td><code>SND_FORMAT_LINEAR_8</code></td>
+    <td>8-bit integer</td>
+  </tr>
+  <tr>
+    <td><code>3</code></td>
+    <td><code>SND_FORMAT_LINEAR_16</code></td>
+    <td>16-bit integer</td>
+  </tr>
+  <tr>
+    <td><code>4</code></td>
+    <td><code>SND_FORMAT_LINEAR_24</code></td>
+    <td>24-bit integer</td>
+  </tr>
+  <tr>
+    <td ><code>5</code></td>
+    <td><code>SND_FORMAT_LINEAR_32</code></td>
+    <td>32-bit integer</td>
+  </tr>
+  <tr>
+    <td><code>6</code></td>
+    <td><code>SND_FORMAT_FLOAT</code></td>
+    <td>32-bit IEEE float</td>
+  </tr>
+  <tr>
+    <td><code>7</code></td>
+    <td><code>SND_FORMAT_DOUBLE</code></td>
+    <td >64-bit IEEE float</td>
+  </tr>
+  <tr>
+    <td><code>27</code></td>
+    <td><code>SND_FORMAT_ALAW_8</code></td>
+    <td>8-bit ITU-T G.711 A-law</td>
+  </tr>
+</table>
+<p></p>
+
+<p>An implementation for reading and writing AU files is available as part of 
+the <a href="http://www.68k.org/~michael/audiofile/">Audio File Library</a></p>
+<hr/>
+
+<h3><a href="Samples.html">AU Sample Files</a></h3>
+
+</body>
+
+</html>
