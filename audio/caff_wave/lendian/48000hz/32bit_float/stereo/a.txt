@@ -1,0 +1,37 @@
+
+Version : libsndfile-1.0.25
+
+========================================
+File : /home/srv/source/git/7890/boilertest/audio/caff_wave/lendian/48000hz/32bit_float/stereo/a.caf
+Length : 388096
+caff
+  Version : 1
+  Flags   : 0
+desc : 32
+  Sample rate  : 48000.000
+  Format id    : lpcm
+  Format flags : 1
+  Bytes / packet   : 8
+  Frames / packet  : 1
+  Channels / frame : 2
+  Bits / channel   : 32
+peak : 28
+  edit count : 0
+     Ch   Position       Value
+     0   300            1
+     1   300            1
+free : 3976
+data : 384004
+  edit : 0
+End
+
+----------------------------------------
+Sample Rate : 48000
+Frames      : 48000
+Channels    : 2
+Format      : 0x00180006
+Sections    : 1
+Seekable    : TRUE
+Duration    : 00:00:01.000
+Signal Max  : 1 (-0.00 dB)
+

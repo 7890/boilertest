@@ -1,0 +1,32 @@
+
+Version : libsndfile-1.0.25
+
+========================================
+File : /home/srv/source/git/7890/boilertest/audio/caff_wave/lendian/8000hz/8bit/stereo/ulaw/a.caf
+Length : 20096
+caff
+  Version : 1
+  Flags   : 0
+desc : 32
+  Sample rate  : 8000.000
+  Format id    : ulaw
+  Format flags : 0
+  Bytes / packet   : 2
+  Frames / packet  : 1
+  Channels / frame : 2
+  Bits / channel   : 8
+free : 4016
+data : 16004
+  edit : 0
+End
+
+----------------------------------------
+Sample Rate : 8000
+Frames      : 8000
+Channels    : 2
+Format      : 0x00180010
+Sections    : 1
+Seekable    : TRUE
+Duration    : 00:00:01.000
+Signal Max  : 27004 (-1.68 dB)
+

@@ -1,0 +1,32 @@
+
+Version : libsndfile-1.0.25
+
+========================================
+File : /home/srv/source/git/7890/boilertest/audio/caff_wave/lendian/48000hz/8bit/mono/a.caf
+Length : 52096
+caff
+  Version : 1
+  Flags   : 0
+desc : 32
+  Sample rate  : 48000.000
+  Format id    : lpcm
+  Format flags : 0
+  Bytes / packet   : 1
+  Frames / packet  : 1
+  Channels / frame : 1
+  Bits / channel   : 8
+free : 4016
+data : 48004
+  edit : 0
+End
+
+----------------------------------------
+Sample Rate : 48000
+Frames      : 48000
+Channels    : 1
+Format      : 0x00180001
+Sections    : 1
+Seekable    : TRUE
+Duration    : 00:00:01.000
+Signal Max  : 127 (-0.07 dB)
+

@@ -1,0 +1,46 @@
+
+Version : libsndfile-1.0.25
+
+========================================
+File : /home/srv/source/git/7890/boilertest/audio/caff_wave/lendian/44100hz/32bit_float/extensible/a.caf
+Length : 16911360
+caff
+  Version : 1
+  Flags   : 0
+desc : 32
+  Sample rate  : 44100.000
+  Format id    : lpcm
+  Format flags : 1
+  Bytes / packet   : 44
+  Frames / packet  : 1
+  Channels / frame : 11
+  Bits / channel   : 32
+peak : 136
+  edit count : 0
+     Ch   Position       Value
+     0   3051           0.870964
+     1   2917           0.778038
+     2   573            0.870964
+     3   933            0.283321
+     4   514            0.381419
+     5   612            0.870964
+     6   104352         0.272003
+     7   104682         0.999969
+     8   13949          0.613458
+     9   13949          0.613458
+    10   155            1
+free : 3868
+data : 16907268
+  edit : 0
+End
+
+----------------------------------------
+Sample Rate : 44100
+Frames      : 384256
+Channels    : 11
+Format      : 0x00180006
+Sections    : 1
+Seekable    : TRUE
+Duration    : 00:00:08.713
+Signal Max  : 0 (-inf dB)
+

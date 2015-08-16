@@ -1,0 +1,24 @@
+
+Version : libsndfile-1.0.25
+
+========================================
+File : /home/srv/source/git/7890/boilertest/audio/flac_wave/lendian/48000hz/24bit/mono/a.flac
+Length : 50593
+FLAC Stream Metadata
+  Channels    : 1
+  Sample rate : 48000
+  Frames      : 48000
+  Bit width   : 24
+Vorbis Comment Metadata
+End
+
+----------------------------------------
+Sample Rate : 48000
+Frames      : 48000
+Channels    : 1
+Format      : 0x00170003
+Sections    : 1
+Seekable    : TRUE
+Duration    : 00:00:01.000
+Signal Max  : 8.38861e+06 (-0.00 dB)
+
