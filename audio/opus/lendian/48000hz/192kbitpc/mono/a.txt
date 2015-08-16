@@ -1,0 +1,18 @@
+Processing file "./192kbitpc/mono/a.opus"...
+
+New logical stream (#1, serial: 61faba28): type opus
+Encoded with libopus 1.1
+User comments section follows...
+	ENCODER=opusenc from opus-tools 0.1.9
+	ENCODER_OPTIONS=--bitrate 192 --hard-cbr --framesize 2.5
+Opus stream 1:
+	Pre-skip: 120
+	Playback gain: 0 dB
+	Channels: 1
+	Original sample rate: 48000Hz
+	Packet duration:    2.5ms (max),    2.5ms (avg),    2.5ms (min)
+	Page duration:    637.5ms (max),  501.2ms (avg),  365.0ms (min)
+	Total data length: 25356 bytes (overhead: 5.11%)
+	Playback length: 0m:01.000s
+	Average bitrate: 202.8 kb/s, w/o overhead: 192.5 kb/s (hard-CBR)
+Logical stream 1 ended
