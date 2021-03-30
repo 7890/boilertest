@@ -1,0 +1,16 @@
+
+https://de.wikipedia.org/wiki/Portable_Anymap
+
+Magic Number 	Dateityp 	Kodierung
+P1 	Portable Bitmap 	ASCII
+P2 	Portable Graymap 	ASCII
+P3 	Portable Pixmap 	ASCII
+P4 	Portable Bitmap 	Binär
+P5 	Portable Graymap 	Binär
+P6 	Portable Pixmap 	Binär
+
+
+Portable Bitmap:  PBM
+Portable Graymap: PGM 
+Portable Pixmap:  PPM
+                 (PNM)
