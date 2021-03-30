@@ -1,0 +1,32 @@
+https://www.freesoundtrackmusic.com/tracks/they_came_from_space_mellow_mix-freesoundtrackmusic.zip
+
+Original File:
+
+MPEG 1.0 layer III, 224 kbit/s, 44100 Hz stereo
+Title:   They Came From Space            Artist: Stargazer Jazz
+Comment:                                 Album:  freesoundtrackmusic.com
+Year:    
+
+They Came From Space (Mellow Mix)	2:55	FREE	
+	
+Composed by Stargazer Jazz
+https://www.freesoundtrackmusic.com/stargazer_jazz.html
+
+FREE SOUNDTRACK MUSIC - Royalty Free Music for Video...
+
+Free Soundtrack Music is a system for soundtrack music composers to post their music online for royalty free licensing to video producers. ALL of the music in this online library are available for royalty free use in films, videos, video games, YouTube videos or other digital multimedia productions. ALSO: The recordings labeled as "FREE" can be used without any payment of licensing fees provided that the composer or producer name(s) and the URL (web address) of this web site are included in the "credits" section of your production as described in the licensing terms. Tracks labeled as "1 credit" can be downloaded and licensed with the purchase of credits.
+
+---
+
+Transcoded to .wav with mpg123:
+mpg123 -w they_came_from_space_mellow_mix-freesoundtrackmusic.mp3.wav they_came_from_space_mellow_mix-freesoundtrackmusic.mp3
+
+Transcoded to .opus with opusenc:
+opusenc --bitrate 16  --hard-cbr --comp 10 they_came_from_space_mellow_mix-freesoundtrackmusic.mp3.wav they_came_from_space_mellow_mix-freesoundtrackmusic.16.opus
+opusenc --bitrate 32  --hard-cbr --comp 10 they_came_from_space_mellow_mix-freesoundtrackmusic.mp3.wav they_came_from_space_mellow_mix-freesoundtrackmusic.32.opus
+opusenc --bitrate 54  --hard-cbr --comp 10 they_came_from_space_mellow_mix-freesoundtrackmusic.mp3.wav they_came_from_space_mellow_mix-freesoundtrackmusic.54.opus
+opusenc --bitrate 64  --hard-cbr --comp 10 they_came_from_space_mellow_mix-freesoundtrackmusic.mp3.wav they_came_from_space_mellow_mix-freesoundtrackmusic.64.opus
+opusenc --bitrate 128 --hard-cbr --comp 10 they_came_from_space_mellow_mix-freesoundtrackmusic.mp3.wav they_came_from_space_mellow_mix-freesoundtrackmusic.128.opus
+opusenc --bitrate 192 --hard-cbr --comp 10 they_came_from_space_mellow_mix-freesoundtrackmusic.mp3.wav they_came_from_space_mellow_mix-freesoundtrackmusic.192.opus
+opusenc --bitrate 256 --hard-cbr --comp 10 they_came_from_space_mellow_mix-freesoundtrackmusic.mp3.wav they_came_from_space_mellow_mix-freesoundtrackmusic.256.opus
+

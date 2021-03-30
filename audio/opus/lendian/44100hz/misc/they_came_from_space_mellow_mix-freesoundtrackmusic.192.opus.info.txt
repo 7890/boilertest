@@ -1,0 +1,18 @@
+Processing file "they_came_from_space_mellow_mix-freesoundtrackmusic.192.opus"...
+
+New logical stream (#1, serial: 72099fa6): type opus
+Encoded with libopus 1.1
+User comments section follows...
+	ENCODER=opusenc from opus-tools 0.1.9
+	ENCODER_OPTIONS=--bitrate 192 --hard-cbr --comp 10
+Opus stream 1:
+	Pre-skip: 356
+	Playback gain: 0 dB
+	Channels: 2
+	Original sample rate: 44100Hz
+	Packet duration:   20.0ms (max),   20.0ms (avg),   20.0ms (min)
+	Page duration:   1000.0ms (max),  995.1ms (avg),  140.0ms (min)
+	Total data length: 4226467 bytes (overhead: 0.547%)
+	Playback length: 2m:55.124s
+	Average bitrate: 193.1 kb/s, w/o overhead: 192 kb/s (hard-CBR)
+Logical stream 1 ended
