@@ -1,0 +1,5 @@
+https://www.lynxstudio.com/downloads/aurora-n/sample-wav-file-zip-encoded-96khz-pcm-24-32-channels-rf64/
+https://cdn.lynxstudio.com/go/wp-content/uploads/32ch-96000-rf64.zip
+Released: June 1, 2017
+
+File size: 670KB.  This is a 96kHz, PCM-24, 32-Channel, broadcast wave file (RF64).  Use this file to checkout the import capabilities of your DAW software.  This is the same format file that is recorded by the Aurora(n) if the file size is greater than 4GB.  Digitally generated 1kHz SineWave -16dBFS.
